@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 160px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header li {
+  list-style: none;
+  font-size: 20px;
+  margin: 20px 60px;
+}
+
+header li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.content__kv {
+  margin-top: 60px ;
+}
+
+.content__kv img{
+  width: 100%;
+}
